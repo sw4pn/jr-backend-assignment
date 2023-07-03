@@ -3,7 +3,7 @@ import bcrypt from "bcrypt";
 import Validator from "../utils/Validator.js";
 import { createError } from "../utils/ErrorHandler.js";
 import prisma from "../config/prisma-client.js";
-import sendResponse from "../utils/SendResponse.js";
+import sendResponse from "../utils/sendResponse.js";
 import TokenUtils from "../utils/TokenUtils.js";
 
 /**

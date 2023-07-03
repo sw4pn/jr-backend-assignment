@@ -1,7 +1,7 @@
 import expressAsyncHandler from "express-async-handler";
 import prisma from "../config/prisma-client.js";
 import { createError } from "../utils/ErrorHandler.js";
-import sendResponse from "../utils/SendResponse.js";
+import sendResponse from "../utils/sendResponse.js";
 
 import { subDays } from "date-fns";
 

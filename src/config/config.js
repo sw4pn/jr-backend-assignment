@@ -3,7 +3,8 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const config = {
-  URL: "http://localhost",
+  // URL: "http://localhost",
+  URL: "https://test-server-9lwq.onrender.com/",
   PORT: 4000,
 
   isProduction: process.env.NODE_ENV !== "development",
