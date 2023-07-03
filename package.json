@@ -2,8 +2,11 @@
   "name": "jr-backend-assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
+    "start": "nodemon index.js",
+    "server": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +24,21 @@
   "bugs": {
     "url": "https://github.com/sw4pn/jr-backend-assignment/issues"
   },
-  "homepage": "https://github.com/sw4pn/jr-backend-assignment#readme"
+  "homepage": "https://github.com/sw4pn/jr-backend-assignment#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prisma": "^4.16.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.16.2",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0"
+  }
 }
