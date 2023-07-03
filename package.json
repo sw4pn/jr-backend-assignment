@@ -1,0 +1,25 @@
+{
+  "name": "jr-backend-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw4pn/jr-backend-assignment.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "backend",
+    "api"
+  ],
+  "author": "Swapnil Andhale <sw4pn@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sw4pn/jr-backend-assignment/issues"
+  },
+  "homepage": "https://github.com/sw4pn/jr-backend-assignment#readme"
+}
