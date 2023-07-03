@@ -1,5 +1,5 @@
 import config from "../config/config.js";
-import sendResponse from "./SendResponse.js";
+import sendResponse from "./sendResponse.js";
 
 /**
  * Create Error Helper function
