@@ -1,8 +1,16 @@
 # Jr. Backend Assignments
 
-API build with Node.js Express.JS
+API build with Node.js + Express.JS + MySQL
 
 Authentication enabled with JSON web tokens, can be verified with cookies or with bearer tokens.
+
+## TEST API LIVE
+
+TEST WITH POSTMAN :
+👍
+https://www.postman.com/sw4pn/workspace/work/collection/12386459-eceb7966-f585-499c-abad-a426d33d09e3?action=share&creator=12386459
+
+CHECK WITH WEB: https://test-server-9lwq.onrender.com/api/
 
 ## Assignment: A
 
@@ -26,10 +34,15 @@ Authentication enabled with JSON web tokens, can be verified with cookies or wit
 - :heavy_check_mark: Company Table with `companyId, companyName`
 - :heavy_check_mark: `GET` `api/companies/:ID/users` --> this routes will gives all users list with companyId as :ID
 
+- 👍 Solution: https://test-server-9lwq.onrender.com/api/companies/1/users
+- 👍 Solution: https://test-server-9lwq.onrender.com/api/companies/2/users
+
 ## Assignment: C
 
 - :heavy_check_mark: Order Table with `orderId, title, description, createdAt`
 - :heavy_check_mark: `GET` `api/orders/recent` --> this routes will gives all orders list with orders less than 7 days.
+
+- 👍 Solution: https://test-server-9lwq.onrender.com/api/orders/recent
 
 ## Others
 
