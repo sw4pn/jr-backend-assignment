@@ -7,10 +7,14 @@ Authentication enabled with JSON web tokens, can be verified with cookies or wit
 ## TEST API LIVE
 
 TEST WITH POSTMAN :
+NOTE: check it locally, since the live server is not available. Change the URL to localhost in your local postman. 
 👍
 https://www.postman.com/sw4pn/workspace/work/collection/12386459-eceb7966-f585-499c-abad-a426d33d09e3?action=share&creator=12386459
-
+<!-- 
 CHECK WITH WEB: https://test-server-9lwq.onrender.com/api/
+-->
+The web version is not available, please check it locally.
+
 
 ## Assignment: A
 
@@ -34,8 +38,14 @@ CHECK WITH WEB: https://test-server-9lwq.onrender.com/api/
 - :heavy_check_mark: Company Table with `companyId, companyName`
 - :heavy_check_mark: `GET` `api/companies/:ID/users` --> this routes will gives all users list with companyId as :ID
 
+- 
+- 👍 Solution: http://localhost/api/companies/1/users
+- 👍 Solution: http://localhost/api/companies/2/users
+- 
+<!-- 
 - 👍 Solution: https://test-server-9lwq.onrender.com/api/companies/1/users
 - 👍 Solution: https://test-server-9lwq.onrender.com/api/companies/2/users
+-->
 
 ## Assignment: C
 
